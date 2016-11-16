@@ -1,0 +1,32 @@
+GlobalAlignment5.py default test run
+
+Enter Matrix File Name ("Blosum62.txt"): 
+Enter Sequence 1 ("THADCDN"): 
+Enter Sequence 2 ("AWCN"): 
+
+        A  W  C  N
+     0  0  0  0  0
+  T  0  0 -2 -1  0
+  H  0 -2 -2 -5  0
+  A  0  4  0 -2 -4
+  D  0  0  0 -3 -1
+  C  0  0 -2  9  5
+  D  0 -2 -4  5 10
+  N  0 -2 -6  1 11
+
+     A  W  C  N
+  T  \  \  \  \
+  H  \  \  \  \
+  A  \  ?  \  ?
+  D  ?  \  \  \
+  C  \  \  \  ?
+  D  \  \  ?  \
+  N  \  \  ?  \
+
+Ends-Free Global Alignment
+
+THADCDN
+--|~|-|
+--AWC-N
+
+Similarity score = 11
